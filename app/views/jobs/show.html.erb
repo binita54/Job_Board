@@ -87,7 +87,7 @@
     <% if current_user.applied_jobs.include?(@job) %>
       <p class="text-sm text-gray-500">You've already applied to this job.</p>
     <% else %>
-      <%= link_to "Apply for this job", new_job_application_path(@job), class: "inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" %>
+      <%= link_to "Apply for this job", new_job_job_application_path(@job), class: "inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" %>
     <% end %>
   </div>
 <% end %>

@@ -11,10 +11,10 @@ Rails.application.routes.draw do
       patch :archive
     end
 
-    resources :applications, only: [ :new, :create ]
+    resources :job_applications, only: [ :new, :create ]
   end
 
-  resources :applications, except: [ :new, :create ]
+  resources :job_applications, except: [ :new, :create ]
 
   namespace :employers do
     get "dashboard", to: "dashboard#index"

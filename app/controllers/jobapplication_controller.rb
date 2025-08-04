@@ -1,4 +1,4 @@
-class ApplicationController < ActionController::Base
+class JobApplicationController < ActionController::Base
   before_action :authenticate_user!
   include Pagy::Backend
   include Pundit::Authorization
