@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  job: one
+  cover_letter: MyText
+  status: 1
+  submitted_at: 2025-07-29 18:26:07
+
+two:
+  user: two
+  job: two
+  cover_letter: MyText
+  status: 1
+  submitted_at: 2025-07-29 18:26:07
