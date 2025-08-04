@@ -65,23 +65,23 @@ group :test do
 end
 
 # Authentication
-gem 'devise'
+gem "devise"
 
 # Authorization
-gem 'pundit'
+gem "pundit"
 
 # Pagination
-gem 'pagy'
+gem "pagy"
 
-#File uploading
-gem 'active_storage_validations'
+# File uploading
+gem "active_storage_validations"
 
-#Modern UI components
-gem 'view_component'
+# Modern UI components
+gem "view_component"
 
 # Job Processing
-gem 'sidekiq'
-gem 'redis'
+gem "sidekiq"
+gem "redis"
 
-gem "rspec-rails", "~> 8.0", :groups => [:development, :test]
-gem 'activeadmin'
+gem "rspec-rails", "~> 8.0", groups: [ :development, :test ]
+gem "activeadmin"

@@ -10,11 +10,11 @@ module JobBoard
 
     # Disable API-only mode (required for Devise, views, etc.)
     config.api_only = false
-    
+
     # Autoload configuration
     config.autoloader = :zeitwerk
     config.autoload_lib(ignore: %w[assets tasks])
-    config.eager_load_paths << Rails.root.join('app/controllers')
+    config.eager_load_paths << Rails.root.join("app/controllers")
 
     # Optional: Uncomment if needed
     # config.time_zone = "Your Time Zone (e.g., Kathmandu)"
